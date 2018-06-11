@@ -2,7 +2,7 @@ import BeautifulSoup, scraperwiki, datetime
 
 scraperwiki.metadata.save('data_columns', ['id', 'date', 'street', 'city', 'postcode', 'livingspace', 'otherspace', 'price'])
 
-city = 'Assen'
+city = 'Utrecht'
 
 fundaUrl = 'http://www.funda.nl'
 
